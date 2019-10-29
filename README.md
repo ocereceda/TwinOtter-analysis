@@ -1,7 +1,7 @@
 # TwinOtter-analysis
 #MATLAB
 
-This repository includes all the datasets and scripts related to the analysis of th Twin Otter performance. It includes:
+This repository includes all the datasets and scripts related to the analysis of the Twin Otter performance. It includes:
 1. A description of each file in list-of-files
 2. nmac function: plots the NMAC of a trajectory (collision volume) 
 3. haversine fucntion: calculates the distance between two points (aircraft) considering the Earth as a sphere
