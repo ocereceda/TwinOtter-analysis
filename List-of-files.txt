@@ -1,11 +1,5 @@
 C172Encounter
-Cessna 172 
---------------------------------------
-C172Encounter2
-Cessna 172 
---------------------------------------
-C172Full
-Cessna 172 Complete C172 trajectory
+Cessna 172  - inital run
 --------------------------------------
 C172Section1
 Cessna 172 Straight path Section 1. Used to locate the conflict point
@@ -16,10 +10,6 @@ Cessna 172 Straight path Section 2. Used to locate the conflict point
 DHC6
 Twin Otter initial trajectory
 --------------------------------------
-DHC6_2
-Twin Otter initial trajectory
-Modified waypoints
---------------------------------------
 DHC6_2T15
 Twin Otter performance considering the 2tau+15 directive
 --------------------------------------
@@ -27,7 +17,7 @@ DHC6ImmediateRecovery
 Twin Otter avoidance and recovery
 Immediate recovery as soon as the aircraft has dived 100ft
 --------------------------------------
-DHC6ImmediateRecovery_2
+DHC6ImmediateRecovery_2T15
 Twin Otter avoidance and recovery
 Immediate recovery as soon as the aircraft has dived 100ft
 The 2tau+15 directive has been used to modify when the avoidance starts
@@ -36,22 +26,8 @@ DHC6IS
 Twin Otter initial state
 Used for calculating the conflict point based on a meneuver at 800s
 --------------------------------------
-DHC6IS_2
-Modification from DHC6IS_2
-Initial state with no initial delay
---------------------------------------
-DHC6Man
-Twin Otter performance with no recovey study
-this dataset does not include the performance prior the avoidance
---------------------------------------
-DHC6NoRecovery
-Twin Otter performance with no recovery study
---------------------------------------
-DHC6NoRecovery_2
-Twin Otter performance with no recovery study
---------------------------------------
-DHC6NoRecovery_3
-
+DHC6NoRecovery_2T15
+Twin Otter performance with no recovery study. 2tau+15 directive
 --------------------------------------
 Time
 simulation time --> from 0 to 200s
